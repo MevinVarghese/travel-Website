@@ -1,0 +1,418 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>TravelBlog</title>
+    <link rel="stylesheet" href="/style.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="//cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+    />
+  </head>
+
+  <body>
+    <!-- navbar -->
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+      <div class="container">
+        <a class="navbar-brand" href="#">
+          <h3 class="z">Travel</h3>
+        </a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#home"
+                >Home</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#packages"
+                >Packages</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#packages"
+                >Transport</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#support"
+                >Hotels</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#blogs"
+                >Blogs</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#support"
+                >Support</a
+              >
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!-- crousel -->
+    <div
+      id="carouselExampleCaptions home"
+      class="carousel slide"
+      data-bs-ride="carousel"
+    >
+      <div class="carousel-indicators">
+        <button
+          type="button"
+          data-bs-target="#carouselExampleCaptions"
+          data-bs-slide-to="0"
+          class="active"
+          aria-current="true"
+          aria-label="Slide 1"
+        ></button>
+        <button
+          type="button"
+          data-bs-target="#carouselExampleCaptions"
+          data-bs-slide-to="1"
+          aria-label="Slide 2"
+        ></button>
+        <button
+          type="button"
+          data-bs-target="#carouselExampleCaptions"
+          data-bs-slide-to="2"
+          aria-label="Slide 3"
+        ></button>
+      </div>
+      <div class="carousel-inner">
+        <div class="carousel-item active" data-bs-interval="2000ms">
+          <img src="./images/dweep.jpg" class="d-block w-100" alt="..." />
+          <div class="carousel-caption d-none d-md-block">
+            <h5>Travel With Me</h5>
+            <p>
+              Some representative placeholder content for the first slide.
+              lorem*3
+            </p>
+          </div>
+        </div>
+        <div class="carousel-item" data-bs-interval="2000ms">
+          <img src="./images/island hut.jpeg" class="d-block w-100" alt="..." />
+          <div class="carousel-caption d-none d-md-block">
+            <h5>Come & Visit</h5>
+            <p>Some representative placeholder content for the second slide.</p>
+          </div>
+        </div>
+        <div class="carousel-item" data-bs-interval="2000ms">
+          <img
+            src="./images/venice-1705528_1920.jpg"
+            class="d-block w-100"
+            alt="..."
+          />
+          <div class="carousel-caption d-none d-md-block">
+            <h5>Enjoy Trip</h5>
+            <p>Some representative placeholder content for the third slide.</p>
+          </div>
+        </div>
+      </div>
+      <button
+        class="carousel-control-prev"
+        type="button"
+        data-bs-target="#carouselExampleCaptions"
+        data-bs-slide="prev"
+      >
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button
+        class="carousel-control-next"
+        type="button"
+        data-bs-target="#carouselExampleCaptions"
+        data-bs-slide="next"
+      >
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+    <div class="text-box">
+      <h3>HONEYMOON PACKAGES</h3>
+    </div>
+    <br />
+    <br />
+    <!-- cards -->
+    <div id="packages" class="container">
+      <div class="row g-3">
+        <div class="col-12 col-md-6 col-lg-3">
+          <div class="card">
+            <img
+              src="./images/kashmir.jpg"
+              alt="Burj Khalifa"
+              class="caed-img-top"
+            />
+            <div class="card-body">
+              <h5 class="card-title">Package-1</h5>
+              <p class="card-text">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos
+                blanditiis nobis quaerat autem, officiis aut ipsam rerum ipsa
+                temporibus accusantium aliquam quo, adipisci possimus
+                consequatur amet soluta minima veritatis magni!
+              </p>
+              <a href="#" class="btn btn-primary">Book Now</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-md-6 col-lg-3">
+          <div class="card">
+            <img
+              src="/images/burj.jpg"
+              alt="Burj Khalifa"
+              class="caed-img-top"
+            />
+            <div class="card-body">
+              <h5 class="card-title">Package-1</h5>
+              <p class="card-text">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos
+                blanditiis nobis quaerat autem, officiis aut ipsam rerum ipsa
+                temporibus accusantium aliquam quo, adipisci possimus
+                consequatur amet soluta minima veritatis magni!
+              </p>
+              <a href="#" class="btn btn-primary">Book Now</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-md-6 col-lg-3">
+          <div class="card">
+            <img
+              src="./images/taj.jpg"
+              alt="Burj Khalifa"
+              class="caed-img-top"
+            />
+            <div class="card-body">
+              <h5 class="card-title">Package-1</h5>
+              <p class="card-text">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos
+                blanditiis nobis quaerat autem, officiis aut ipsam rerum ipsa
+                temporibus accusantium aliquam quo, adipisci possimus
+                consequatur amet soluta minima veritatis magni!
+              </p>
+              <a href="#" class="btn btn-primary">Book Now</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-md-6 col-lg-3">
+          <div class="card">
+            <img
+              src="./images/taj.jpg"
+              alt="Burj Khalifa"
+              class="caed-img-top"
+            />
+            <div class="card-body">
+              <h5 class="card-title">Package-1</h5>
+              <p class="card-text">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos
+                blanditiis nobis quaerat autem, officiis aut ipsam rerum ipsa
+                temporibus accusantium aliquam quo, adipisci possimus
+                consequatur amet soluta minima veritatis magni!
+              </p>
+              <a href="#" class="btn btn-primary">Book Now</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <br />
+    <br />
+    <div class="b"><button class="a">MORE PACKAGES</button></div>
+    <div class="text-box">
+      <h3>SPECIAL KERALA FESTIVAL TOURS</h3>
+      <div class="mn">
+        <h3 class="tr">KERALA BOAT RACE</h3>
+        <h6 class="mr">Lorem ipsum dolor sit amet consectetur adipisicing</h6>
+        <button class="l">More Details</button>
+      </div>
+      <br />
+      <br />
+      <br />
+      <br />
+
+      <!-- grid -->
+      <div id="blogs" class="row">
+        <div class="col-md-6">
+          <iframe
+            class="p-4"
+            width="480"
+            height="300"
+            src="https://www.youtube.com/embed/R83BlU5nnbs"
+            title="Signature Video  | Kerala Tourism | Experience God’s Own Country"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            allowfullscreen
+          ></iframe>
+        </div>
+        <div class="col-md-6">
+          <h2 class="mt-2 p-2">About Me</h2>
+        </div>
+      </div>
+
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <!-- cards -->
+      <div class="text-box">
+        <h3>NORTH INDIAN TOURS</h3>
+        <div class="d-flex">
+          <div class="card cardcustom col-12 col-md-6 col-lg-3">
+            <img src="./images/usa.png" class="card-img-top" alt="..." />
+          </div>
+          <div class="card cardcustom col-12 col-md-6 col-lg-3">
+            <img src="./images/dubai1.png" class="card-img-top" alt="..." />
+          </div>
+          <div class="card cardcustom col-12 col-md-6 col-lg-3">
+            <img src="./images/Italy.png" class="card-img-top" alt="..." />
+          </div>
+          <div class="card cardcustom col-12 col-md-6 col-lg-3">
+            <img src="./images/japan.png" class="card-img-top" alt="..." />
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="text-box">
+      <h3>OUR PREMIUM FEATURES</h3>
+      <h6>we will make your dreams come true</h6>
+    </div>
+    <div class="d-flex">
+      <div class="card smallcard" style="width: 25%">
+        <img src="./images/bike ride.jpg" class="card-img-top" alt="..." />
+        <h4 class="m-auto">FREE BIKE RIDE</h4>
+        <a class="primary m-auto">Learn More</a>
+      </div>
+      <div class="card smallcard" style="width: 25%">
+        <img src="./images/campfire.webp" class="card-img-top" alt="..." />
+        <h4 class="m-auto">CAMPFIRE</h4>
+        <a class="primary m-auto">Learn More</a>
+      </div>
+      <div class="card smallcard" style="width: 25%">
+        <img src="./images/24xsupport.avif" class="card-img-top" alt="..." />
+        <h4 class="m-auto">24X7 SUPPORT</h4>
+        <a class="primary m-auto">Learn More</a>
+      </div>
+      <div class="card smallcard" style="width: 25%">
+        <img src="./images/tour guide.jpg" class="card-img-top" alt="..." />
+        <h4 class="m-auto">TOUR GUIDE</h4>
+        <a class="primary m-auto">Learn More</a>
+      </div>
+    </div>
+    <div class="text-box">
+      <h5>Our customers love</h5>
+    </div>
+    <div class="d-flex">
+      <div class="card review" style="width: calc(100% / 3)">
+        <img
+          src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSWLoCEoKIQKmj2qjBssuaRUwlBCXXUd8KXEE264fzqATrFsEIMEgxhqVsTxq_I6D9obHM&usqp=CAU"
+          class="card-img-top"
+          alt="..."
+        />
+        <div class="m-auto">
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-regular fa-star-half-stroke"></i>
+        </div>
+        <h4 class="m-auto">Michael & Jenny</h4>
+        <p class="p-4">
+          "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum dolorum
+          est voluptas"
+        </p>
+      </div>
+      <div class="card review" style="width: calc(100% / 3)">
+        <img
+          src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTET0Vc0rknLD-WnrJhCflwgyHzS2GKUfkz3s8cbtDH7LbECJMvJtxPCfSW7whjVV-pM3s&usqp=CAU"
+          class="card-img-top"
+          alt="..."
+        />
+        <div class="m-auto">
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-regular fa-star-half-stroke"></i>
+        </div>
+        <h4 class="m-auto">Rohith & Amrutha</h4>
+        <p class="p-4">
+          "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum dolorum
+          est voluptas"
+        </p>
+      </div>
+      <div class="card review" style="width: calc(100% / 3)">
+        <img
+          src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQK1WbGynJsip5ieCwz6d5qXcc-751RuFSuBD21WQmTCFI_-CGxh2s8KHmj2tCK0iKuCH8&usqp=CAU"
+          class="card-img-top"
+          alt="..."
+        />
+        <div class="m-auto">
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-regular fa-star-half-stroke"></i>
+        </div>
+        <h4 class="m-auto">James & Anna</h4>
+        <p class="p-4">
+          "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum dolorum
+          est voluptas"
+        </p>
+      </div>
+    </div>
+    <!-- Footer -->
+    <div>
+      <div id="support" class="footertop">
+        <div class="footer">
+          <h5>About Us</h5>
+          <p>Our Company</p>
+          <p>Our Management</p>
+          <p>Connections</p>
+          <p>Annual reports</p>
+          <p>Our Reports</p>
+        </div>
+        <div class="footer">
+          <h5>Social media</h5>
+          <div class="icons">
+            <i class="fa-brands fa-facebook-f"></i>
+            <i class="fa-brands fa-twitter"></i>
+            <i class="fa-brands fa-instagram"></i>
+            <i class="fa-brands fa-linkedin-in"></i>
+          </div>
+        </div>
+        <div class="footer">
+          <img src="./images/bike_ride-removebg-preview.png" />
+          <h5>Explore the World</h5>
+        </div>
+      </div>
+      <div></div>
+    </div>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

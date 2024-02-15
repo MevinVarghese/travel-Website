@@ -1,0 +1,109 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.text-box {
+  text-align: center;
+  margin-top: 4%;
+  text-decoration: none;
+}
+/* ----footer---- */
+/* .footer {
+  width: 100%;
+  text-align: center;
+  padding: 30px 0;
+}
+.footer h4 {
+  margin-bottom: 25px;
+  margin-top: 20px;
+  font-weight: 600;
+} */
+.icons .fa {
+  color: #f44336;
+  margin: 0 13px;
+  cursor: pointer;
+  padding: 18px 0;
+}
+.fa-heart-o {
+  color: #f44336;
+}
+#iname {
+  color: orange;
+  font-size: 50px;
+}
+.b {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+.a {
+  border-radius: 25px;
+  padding: 10px;
+  color: white;
+  background-color: rgb(24, 24, 193);
+}
+.l {
+  border-radius: 10px;
+  padding: 10px;
+  color: white;
+  background-color: rgb(61, 126, 216);
+}
+.mn {
+  background-image: url(https://storage.googleapis.com/tb-img/production/21/09/07-09-2021_umesh_D2.PNG);
+  height: 250px;
+  padding: 50px;
+  background-position: right bottom;
+  background-size: cover;
+}
+.tr {
+  font-weight: 800;
+  color: rgb(16, 16, 172);
+  -webkit-text-stroke: white;
+  -webkit-text-stroke-width: 0.8px;
+}
+.mr {
+  color: white;
+}
+.z {
+  color: orange;
+}
+.cardcustom {
+  padding: 10px;
+  margin: 8px;
+}
+.smallcard {
+  padding: 22px;
+  margin: 30px;
+  justify-content: end;
+  border-radius: 30px !important;
+}
+.review {
+  padding: 22px;
+  margin: 60px;
+  justify-content: end;
+}
+.footertop {
+  display: flex;
+  background-color: rgb(16, 16, 83);
+  color: white;
+}
+.footer {
+  width: calc(100% / 3);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 30px 20px;
+}
+.footer img {
+  width: 60%;
+}
+.icons i {
+  font-size: 20px;
+  background: black;
+  padding: 10px;
+  border-radius: 50%;
+  color: white;
+  width: 40px;
+  height: 40px;
+  text-align: center;
+}
